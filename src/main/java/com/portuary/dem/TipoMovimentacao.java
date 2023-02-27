@@ -14,8 +14,8 @@ public class TipoMovimentacao {
     
     private Integer id;
     private String nome;
-    private Timestamp dataCadastro;
-    private Timestamp dataAlteracao;
+    private Timestamp dataInicio;
+    private Timestamp dataTermino;
 
     /**
      * @return the id
@@ -46,33 +46,31 @@ public class TipoMovimentacao {
     }
 
     /**
-     * @return the dataCadastro
+     * @return the dataInicio
      */
-    public Timestamp getDataCadastro() {
-        return dataCadastro;
+    public Timestamp getDataInicio() {
+        return dataInicio;
     }
 
     /**
-     * @param dataCadastro the dataCadastro to set
+     * @param dataInicio the dataInicio to set
      */
-    public void setDataCadastro(Timestamp dataCadastro) {
-        this.dataCadastro = dataCadastro;
+    public void setDataInicio(Timestamp dataInicio) {
+        this.dataInicio = dataInicio;
     }
 
     /**
-     * @return the dataAlteracao
+     * @return the dataTermino
      */
-    public Timestamp getDataAlteracao() {
-        return dataAlteracao;
+    public Timestamp getDataTermino() {
+        return dataTermino;
     }
 
     /**
-     * @param dataAlteracao the dataAlteracao to set
+     * @param dataTermino the dataTermino to set
      */
-    public void setDataAlteracao(Timestamp dataAlteracao) {
-        this.dataAlteracao = dataAlteracao;
+    public void setDataTermino(Timestamp dataTermino) {
+        this.dataTermino = dataTermino;
     }
-    
-    
     
 }
